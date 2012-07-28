@@ -1,0 +1,5 @@
+E:\JobFiles\Vs2010\Console\TypeChange\TypeChange\bin\Debug\TypeChange.exe
+E:\JobFiles\Vs2010\Console\TypeChange\TypeChange\bin\Debug\TypeChange.pdb
+E:\JobFiles\Vs2010\Console\TypeChange\TypeChange\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\JobFiles\Vs2010\Console\TypeChange\TypeChange\obj\x86\Debug\TypeChange.exe
+E:\JobFiles\Vs2010\Console\TypeChange\TypeChange\obj\x86\Debug\TypeChange.pdb
