@@ -9,9 +9,9 @@ namespace HttpUpload.Controllers
     public class FileController : Controller
     {
         [HttpPost]
-        public ContentResult Upload(HttpPostedFileBase FileData, string folder)
+        public string Upload(HttpPostedFileBase FileData, string folder)
         {
-            return Content("complete");
+            return "{\"success\":true,\"file\":\"/Resources/Apps/temp/a6612bae-5aef-44ac-9f89-370058e6e537.m4a\",\"thumbnail\":\"\"}";
         }
 
         [NonAction]

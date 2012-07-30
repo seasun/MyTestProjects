@@ -40,6 +40,9 @@
                 },
                 onUploadError: function (file, errorCode, errorMsg, errorString) {
                     alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
+                },
+                onUploadSuccess: function (file, data, response) {
+                    alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':' + data);
                 }
             });
         });
