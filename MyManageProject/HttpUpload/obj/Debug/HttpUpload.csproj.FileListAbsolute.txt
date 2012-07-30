@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\bin\HttpUpload.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\bin\HttpUpload.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.pdb
