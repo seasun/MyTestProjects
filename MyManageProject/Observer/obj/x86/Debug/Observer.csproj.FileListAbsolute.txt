@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Observer\bin\Debug\Observer.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Observer\bin\Debug\Observer.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Observer\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Observer\obj\x86\Debug\Observer.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Observer\obj\x86\Debug\Observer.pdb
