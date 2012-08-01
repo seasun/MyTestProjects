@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StaticClass\bin\Debug\StaticClass.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StaticClass\bin\Debug\StaticClass.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StaticClass\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StaticClass\obj\x86\Debug\StaticClass.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StaticClass\obj\x86\Debug\StaticClass.pdb
