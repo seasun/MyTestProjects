@@ -31,7 +31,7 @@ namespace Observer
 
         public void ComeBack(int second = 8)
         {
-            this.CountDown = secret;
+            this.CountDown = second;
             Console.WriteLine("{0}秒後老闆將回來", this.CountDown);
             Timer timer = new Timer();
             timer.Interval = 1000;
