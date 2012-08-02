@@ -29,7 +29,7 @@ namespace Observer
         /// </summary>
         public int CountDown { get; private set; }
 
-        public void ComeBack(int secret = 10)
+        public void ComeBack(int second = 8)
         {
             this.CountDown = secret;
             Console.WriteLine("{0}秒後老闆將回來", this.CountDown);
