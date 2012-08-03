@@ -13,10 +13,10 @@ namespace Adapter
         #region IVoltage 成员
 
         /// <summary>
-        /// 起到的是變壓作用
+        /// 起到的是變壓作用(客戶想用的是中國式的電壓方法簽名GetCnVoltage)
         /// </summary>
         /// <returns></returns>
-        public string Voltage()
+        public string GetCnVoltage()
         {
             return base.GetEnVoltage();
         }
