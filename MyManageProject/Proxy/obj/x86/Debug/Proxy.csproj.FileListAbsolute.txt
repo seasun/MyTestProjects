@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Proxy\bin\Debug\Proxy.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Proxy\bin\Debug\Proxy.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Proxy\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Proxy\obj\x86\Debug\Proxy.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Proxy\obj\x86\Debug\Proxy.pdb
