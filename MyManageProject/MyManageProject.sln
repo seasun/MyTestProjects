@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFactoryPattern", "Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{1295A38F-D97C-4A99-915B-A233BF1E5BF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{42D5B527-2590-4EDE-B2EF-4BC73BB54581}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,16 @@ Global
 		{1295A38F-D97C-4A99-915B-A233BF1E5BF1}.Release|Mixed Platforms.Build.0 = Release|x86
 		{1295A38F-D97C-4A99-915B-A233BF1E5BF1}.Release|x86.ActiveCfg = Release|x86
 		{1295A38F-D97C-4A99-915B-A233BF1E5BF1}.Release|x86.Build.0 = Release|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Debug|x86.ActiveCfg = Debug|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Debug|x86.Build.0 = Debug|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Release|Any CPU.ActiveCfg = Release|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Release|Mixed Platforms.Build.0 = Release|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Release|x86.ActiveCfg = Release|x86
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,5 +132,6 @@ Global
 		{936403E4-1AAC-4D9A-9886-E0B4823380ED} = {4EB84AC5-A12F-440A-A8A9-B9F257451389}
 		{8FE548BC-04A9-48CD-89ED-10535AE25BDD} = {4EB84AC5-A12F-440A-A8A9-B9F257451389}
 		{1295A38F-D97C-4A99-915B-A233BF1E5BF1} = {4EB84AC5-A12F-440A-A8A9-B9F257451389}
+		{42D5B527-2590-4EDE-B2EF-4BC73BB54581} = {4EB84AC5-A12F-440A-A8A9-B9F257451389}
 	EndGlobalSection
 EndGlobal

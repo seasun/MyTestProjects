@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\PrototypePattern\bin\Debug\PrototypePattern.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\PrototypePattern\bin\Debug\PrototypePattern.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\PrototypePattern\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\PrototypePattern\obj\x86\Debug\PrototypePattern.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\PrototypePattern\obj\x86\Debug\PrototypePattern.pdb
