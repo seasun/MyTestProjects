@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JSNameSpace</title>
+    <script type="text/javascript">
+        var obj1 = { me: "me" };
+        var obj2 = obj1;
+        obj2["a"] = {}; //关键
+        //obj2["a"] = "it is a";//若是这样而不是对象。。结果完全不同(obj2将不会影响obj1)
+        //alert(obj1.a); //test1
+        obj2 = obj2["a"]; //关键
+        console.log(obj1); //test2
+        console.log(obj2); //test2
+        //        obj2["b"] = "it is b";
+        //        console.log(obj1); //test3
+        //        console.log(obj2); //test3
+        //        console.log(obj1.a.b); //test3  output it is b
+
+        //alert(("sdfs"["a"]="sss"));
+
+        var MyJs = {};
+        MyJs.Version = "1.0",
+        MyJs.showLog = function (message) {
+            if (console) {
+                console.log(message);
+            } else {
+                alert("此浏览器不支持调试！");
+            }
+        }
+        MyJs.Register = function (nameSpace, fun) {
+            this.showLog(this.Version);
+
+            if (nameSpace) {
+                var nsList = nameSpace.split("."), tempObj = MyJs, tempStr = "";
+                while (tempStr = nsList.shift()) {
+                    if (nsList.length) {
+                        if (typeof tempObj[tempStr] === 'undefined') {
+                            tempObj[tempStr] = {};
+                        }
+                        tempObj = tempObj[tempStr];
+                    }
+                    else {
+                        if (typeof tempObj[tempStr] === 'undefined') {
+                            tempObj[tempStr] = fun(MyJs);
+                        }
+                    }
+                }
+                this.showLog(MyJs);
+            }
+        }
+
+        /********************* test *******************************/
+        MyJs.Register("unit.math.add", function () {
+            return function () {
+                alert(1);
+            }
+        });
+        MyJs.unit.math.add();
+    </script>
+</head>
+<body>
+</body>
+</html>
