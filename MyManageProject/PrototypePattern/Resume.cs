@@ -10,6 +10,8 @@ namespace PrototypePattern
         public string Name { get; set; }
         public int Age { get; set; }
         public string Company { get; set; }
+        public List<WorkExp> WorkExperiences { get; set; }
+        public WorkExp WorkExperience { get; set; }
 
         public Resume() { }
         public Resume(string name, int age, string company = "")
