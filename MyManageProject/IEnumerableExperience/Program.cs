@@ -49,8 +49,9 @@ namespace IEnumerableExperience
             persons[0] = new Person { Name = "seasun", Age = 26 };
             persons[1] = new Person { Name = "candy", Age = 25 };
             persons[2] = new Person { Name = "qing", Age = 27 };
-            //People people = new People(persons);
-            foreach (Person p in new People(persons))
+            People people = new People(persons);
+            Console.WriteLine("{0} is {1}", people[0].Name, people[0].Age);
+            foreach (Person p in people)
             {
                 Console.WriteLine("{0} is {1}", p.Name, p.Age);
             }

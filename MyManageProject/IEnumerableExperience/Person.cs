@@ -38,6 +38,22 @@ namespace IEnumerableExperience
             _persons = persons;
         }
 
+        /// <summary>
+        /// 增加一个索引器
+        /// </summary>
+        /// <returns></returns>
+        public Person this[int index]
+        {
+            get
+            {
+                if (index < 0 || index >= _persons.Length)
+                {
+                    throw new IndexOutOfRangeException();
+                }
+                return _persons[index];
+            }
+        }
+
         #region IEnumerable 成员
 
         public IEnumerator GetEnumerator()
