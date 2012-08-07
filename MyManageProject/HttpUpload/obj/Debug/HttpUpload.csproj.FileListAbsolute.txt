@@ -3,3 +3,8 @@ G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\bin\HttpUpload.pd
 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\ResolveAssemblyReference.cache
 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.dll
 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.pdb
+E:\SeasunGit\MyTestProjects\MyManageProject\HttpUpload\bin\HttpUpload.dll
+E:\SeasunGit\MyTestProjects\MyManageProject\HttpUpload\bin\HttpUpload.pdb
+E:\SeasunGit\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\ResolveAssemblyReference.cache
+E:\SeasunGit\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.dll
+E:\SeasunGit\MyTestProjects\MyManageProject\HttpUpload\obj\Debug\HttpUpload.pdb
