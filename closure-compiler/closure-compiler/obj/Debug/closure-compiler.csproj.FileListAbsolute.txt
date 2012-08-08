@@ -1,0 +1,5 @@
+G:\Seasun\MyFiles\VS\Visual Studio 2010\WebSites\closure-compiler\closure-compiler\bin\closure-compiler.dll
+G:\Seasun\MyFiles\VS\Visual Studio 2010\WebSites\closure-compiler\closure-compiler\bin\closure-compiler.pdb
+G:\Seasun\MyFiles\VS\Visual Studio 2010\WebSites\closure-compiler\closure-compiler\obj\Debug\ResolveAssemblyReference.cache
+G:\Seasun\MyFiles\VS\Visual Studio 2010\WebSites\closure-compiler\closure-compiler\obj\Debug\closure-compiler.dll
+G:\Seasun\MyFiles\VS\Visual Studio 2010\WebSites\closure-compiler\closure-compiler\obj\Debug\closure-compiler.pdb
