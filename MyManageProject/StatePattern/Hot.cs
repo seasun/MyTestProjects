@@ -7,9 +7,9 @@ namespace StatePattern
 {
     class Hot : TemperatureState
     {
-        internal override void Up()
+        public override void Up(Weather weather)
         {
-            Console.WriteLine("低温");
+            Console.WriteLine("高温");
         }
     }
 }

@@ -5,8 +5,8 @@ using System.Text;
 
 namespace StatePattern
 {
-    internal abstract class TemperatureState
+    public abstract class TemperatureState
     {
-        internal abstract void Up();
+        public abstract void Up(Weather weather);
     }
 }
