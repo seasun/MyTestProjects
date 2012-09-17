@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d3c48d73-11fe-426e-b0cc-e7e34a91e92b" name="seasun@MEMEGO 2012-08-10 11:35:20" runUser="Memego\seasun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9015f826-87e5-4776-87a1-4f43ed111a93">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="seasun_MEMEGO 2012-08-10 11_35_20">
+      <DeploymentItem filename="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\bin\Debug\Util.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-10T11:35:20.8409005+08:00" queuing="2012-08-10T11:35:23.4510498+08:00" start="2012-08-10T11:35:23.6960639+08:00" finish="2012-08-10T11:35:25.7271638+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChartCodeAtTest" storage="g:\seasun\gitstorage\mytestprojects\mymanageproject\util.core.test\bin\debug\util.core.test.dll" id="e191eb32-1680-b4d1-7724-44c5d4687707">
+      <Execution id="b9a0eecb-3466-4d62-ac9a-27c14dcdac96" />
+      <TestMethod codeBase="G:/Seasun/GitStorage/MyTestProjects/MyManageProject/Util.Core.Test/bin/Debug/Util.Core.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Util.Core.Test.StringHelperTest, Util.Core.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChartCodeAtTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e191eb32-1680-b4d1-7724-44c5d4687707" executionId="b9a0eecb-3466-4d62-ac9a-27c14dcdac96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9a0eecb-3466-4d62-ac9a-27c14dcdac96" testId="e191eb32-1680-b4d1-7724-44c5d4687707" testName="ChartCodeAtTest" computerName="MEMEGO" duration="00:00:00.2229915" startTime="2012-08-10T11:35:23.9480783+08:00" endTime="2012-08-10T11:35:25.6301583+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9a0eecb-3466-4d62-ac9a-27c14dcdac96">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 Util.Core.Test.StringHelperTest.ChartCodeAtTest 引发了异常: 
+System.FormatException: 输入字符串的格式不正确。</Message>
+          <StackTrace>    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Util.Core.StringHelper.ChartCodeAt(String str, Int32 index) 位置 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\StringHelper.cs:行号 12
+   在 Util.Core.Test.StringHelperTest.ChartCodeAtTest() 位置 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\StringHelperTest.cs:行号 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,8 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\bin\Debug\XmlTest.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\bin\Debug\XmlTest.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\bin\Debug\Util.Core.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\bin\Debug\Util.Core.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\obj\x86\Debug\XmlTest.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\obj\x86\Debug\XmlTest.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\XmlTest\bin\Debug\XmlTest.exe.config

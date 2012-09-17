@@ -38,6 +38,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlTest", "XmlTest\XmlTest.csproj", "{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = MyManageProject.vsmdi
@@ -191,6 +193,16 @@ Global
 		{CAB5752C-A678-4319-868E-31DFF3798A81}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CAB5752C-A678-4319-868E-31DFF3798A81}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CAB5752C-A678-4319-868E-31DFF3798A81}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Debug|x86.ActiveCfg = Debug|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Debug|x86.Build.0 = Debug|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Release|Any CPU.ActiveCfg = Release|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Release|x86.ActiveCfg = Release|x86
+		{DA0C132B-89B1-47B9-BD53-80E32F0C4CA5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

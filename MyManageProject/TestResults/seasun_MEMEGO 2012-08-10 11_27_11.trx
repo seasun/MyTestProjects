@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ea72165d-6e32-4af0-be69-c46f6ab82205" name="seasun@MEMEGO 2012-08-10 11:27:11" runUser="Memego\seasun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9015f826-87e5-4776-87a1-4f43ed111a93">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="seasun_MEMEGO 2012-08-10 11_27_11">
+      <DeploymentItem filename="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\bin\Debug\Util.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-10T11:27:11.0659308+08:00" queuing="2012-08-10T11:27:13.1020322+08:00" start="2012-08-10T11:27:13.2110384+08:00" finish="2012-08-10T11:27:14.4291081+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChartCodeAtTest" storage="g:\seasun\gitstorage\mytestprojects\mymanageproject\util.core.test\bin\debug\util.core.test.dll" id="e191eb32-1680-b4d1-7724-44c5d4687707">
+      <Execution id="05d5a766-f9ce-4ba6-954e-121869ab64ba" />
+      <TestMethod codeBase="G:/Seasun/GitStorage/MyTestProjects/MyManageProject/Util.Core.Test/bin/Debug/Util.Core.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Util.Core.Test.StringHelperTest, Util.Core.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChartCodeAtTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e191eb32-1680-b4d1-7724-44c5d4687707" executionId="05d5a766-f9ce-4ba6-954e-121869ab64ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="05d5a766-f9ce-4ba6-954e-121869ab64ba" testId="e191eb32-1680-b4d1-7724-44c5d4687707" testName="ChartCodeAtTest" computerName="MEMEGO" duration="00:00:00.2276980" startTime="2012-08-10T11:27:13.3130443+08:00" endTime="2012-08-10T11:27:14.3651044+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05d5a766-f9ce-4ba6-954e-121869ab64ba">
+      <Output>
+        <StdOut>97
+98
+99
+239
+188
+140
+97</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 Util.Core.Test.StringHelperTest.ChartCodeAtTest() 位置 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\StringHelperTest.cs:行号 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

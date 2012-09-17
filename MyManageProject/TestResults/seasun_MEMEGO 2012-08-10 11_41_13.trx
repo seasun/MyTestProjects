@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02033ee7-0e0c-441e-9858-8b1d63b4000d" name="seasun@MEMEGO 2012-08-10 11:41:13" runUser="Memego\seasun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9015f826-87e5-4776-87a1-4f43ed111a93">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="seasun_MEMEGO 2012-08-10 11_41_13">
+      <DeploymentItem filename="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\bin\Debug\Util.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-10T11:41:13.9133963+08:00" queuing="2012-08-10T11:41:16.2815318+08:00" start="2012-08-10T11:41:16.5045445+08:00" finish="2012-08-10T11:42:04.7751240+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MEMEGO" outcome="Error" timestamp="2012-08-10T11:42:04.7601232+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChartCodeAtTest" storage="g:\seasun\gitstorage\mytestprojects\mymanageproject\util.core.test\bin\debug\util.core.test.dll" id="e191eb32-1680-b4d1-7724-44c5d4687707">
+      <Execution id="2c179dbd-71fd-450d-a7e6-776fab9901b6" />
+      <TestMethod codeBase="G:/Seasun/GitStorage/MyTestProjects/MyManageProject/Util.Core.Test/bin/Debug/Util.Core.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Util.Core.Test.StringHelperTest, Util.Core.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChartCodeAtTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e191eb32-1680-b4d1-7724-44c5d4687707" executionId="2c179dbd-71fd-450d-a7e6-776fab9901b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2c179dbd-71fd-450d-a7e6-776fab9901b6" testId="e191eb32-1680-b4d1-7724-44c5d4687707" testName="ChartCodeAtTest" computerName="MEMEGO" duration="00:00:48.0625676" startTime="2012-08-10T11:41:16.7125564+08:00" endTime="2012-08-10T11:42:04.7751240+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c179dbd-71fd-450d-a7e6-776fab9901b6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

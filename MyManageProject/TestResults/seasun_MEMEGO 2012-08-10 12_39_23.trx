@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="518d09bf-231c-4cbd-bdca-4c6275535269" name="seasun@MEMEGO 2012-08-10 12:39:23" runUser="Memego\seasun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9015f826-87e5-4776-87a1-4f43ed111a93">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="seasun_MEMEGO 2012-08-10 12_39_23">
+      <DeploymentItem filename="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\bin\Debug\Util.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-10T12:39:23.8947847+08:00" queuing="2012-08-10T12:39:26.4579296+08:00" start="2012-08-10T12:39:26.7139443+08:00" finish="2012-08-10T12:39:28.7490579+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SubStringExTest" storage="g:\seasun\gitstorage\mytestprojects\mymanageproject\util.core.test\bin\debug\util.core.test.dll" id="7b6d5b8c-c206-8118-302a-420092a8638b">
+      <Execution id="c833a410-9059-43c8-a993-e39abbd4cd20" />
+      <TestMethod codeBase="G:/Seasun/GitStorage/MyTestProjects/MyManageProject/Util.Core.Test/bin/Debug/Util.Core.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Util.Core.Test.StringHelperTest, Util.Core.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubStringExTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7b6d5b8c-c206-8118-302a-420092a8638b" executionId="c833a410-9059-43c8-a993-e39abbd4cd20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c833a410-9059-43c8-a993-e39abbd4cd20" testId="7b6d5b8c-c206-8118-302a-420092a8638b" testName="SubStringExTest" computerName="MEMEGO" duration="00:00:00.1621972" startTime="2012-08-10T12:39:27.0229620+08:00" endTime="2012-08-10T12:39:28.6260509+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c833a410-9059-43c8-a993-e39abbd4cd20">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。正確了</Message>
+          <StackTrace>   在 Util.Core.Test.StringHelperTest.SubStringExTest() 位置 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\StringHelperTest.cs:行号 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
