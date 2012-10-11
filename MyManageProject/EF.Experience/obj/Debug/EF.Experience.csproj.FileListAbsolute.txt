@@ -1,0 +1,10 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\bin\EF.Experience.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\bin\EF.Experience.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\bin\EntityFramework.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\bin\EntityFramework.xml
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.csprojResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.Migrations.InitialCreate.resources
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.csproj.GenerateResource.Cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\EF.Experience\obj\Debug\EF.Experience.Migrations.PersonNumber.resources
