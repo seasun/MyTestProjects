@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StatePattern\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StatePattern\bin\Debug\StatePattern.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StatePattern\bin\Debug\StatePattern.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StatePattern\obj\x86\Debug\StatePattern.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\StatePattern\obj\x86\Debug\StatePattern.pdb

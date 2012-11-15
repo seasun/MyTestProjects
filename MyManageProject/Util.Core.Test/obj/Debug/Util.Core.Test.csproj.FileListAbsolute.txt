@@ -1,0 +1,7 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\bin\Debug\Util.Core.Test.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\bin\Debug\Util.Core.Test.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\bin\Debug\Util.Core.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\bin\Debug\Util.Core.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\obj\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\obj\Debug\Util.Core.Test.dll
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\obj\Debug\Util.Core.Test.pdb

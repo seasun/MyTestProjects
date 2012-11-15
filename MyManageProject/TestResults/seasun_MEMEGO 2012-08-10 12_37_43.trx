@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0eca85a-c63d-44ad-ac55-6b884f17dace" name="seasun@MEMEGO 2012-08-10 12:37:43" runUser="Memego\seasun" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9015f826-87e5-4776-87a1-4f43ed111a93">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="seasun_MEMEGO 2012-08-10 12_37_43">
+      <DeploymentItem filename="G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core\bin\Debug\Util.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-10T12:37:43.2203044+08:00" queuing="2012-08-10T12:37:43.8203387+08:00" start="2012-08-10T12:37:44.0313508+08:00" finish="2012-08-10T12:37:45.1014120+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SubStringExTest" storage="g:\seasun\gitstorage\mytestprojects\mymanageproject\util.core.test\bin\debug\util.core.test.dll" id="7b6d5b8c-c206-8118-302a-420092a8638b">
+      <Execution id="f5ec8259-156a-4cb2-8dfe-93b1cb984351" />
+      <TestMethod codeBase="G:/Seasun/GitStorage/MyTestProjects/MyManageProject/Util.Core.Test/bin/Debug/Util.Core.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Util.Core.Test.StringHelperTest, Util.Core.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubStringExTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7b6d5b8c-c206-8118-302a-420092a8638b" executionId="f5ec8259-156a-4cb2-8dfe-93b1cb984351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f5ec8259-156a-4cb2-8dfe-93b1cb984351" testId="7b6d5b8c-c206-8118-302a-420092a8638b" testName="SubStringExTest" computerName="MEMEGO" duration="00:00:00.0834181" startTime="2012-08-10T12:37:44.1343567+08:00" endTime="2012-08-10T12:37:45.0534093+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5ec8259-156a-4cb2-8dfe-93b1cb984351">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;abc我...&gt;，实际为: &lt;abc我d&gt;。</Message>
+          <StackTrace>   在 Util.Core.Test.StringHelperTest.SubStringExTest() 位置 G:\Seasun\GitStorage\MyTestProjects\MyManageProject\Util.Core.Test\StringHelperTest.cs:行号 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

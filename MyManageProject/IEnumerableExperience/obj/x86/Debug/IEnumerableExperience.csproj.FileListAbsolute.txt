@@ -1,0 +1,5 @@
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\IEnumerableExperience\bin\Debug\IEnumerableExperience.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\IEnumerableExperience\bin\Debug\IEnumerableExperience.pdb
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\IEnumerableExperience\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\IEnumerableExperience\obj\x86\Debug\IEnumerableExperience.exe
+G:\Seasun\GitStorage\MyTestProjects\MyManageProject\IEnumerableExperience\obj\x86\Debug\IEnumerableExperience.pdb
