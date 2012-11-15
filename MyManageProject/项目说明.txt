@@ -1,0 +1,4 @@
+Service.Interface类库项目：用于定义服务契约(Service Contract)，引用WCF核心程序集System.ServiceModel.dll
+Service类库项目：用于定义服务类型；其实就是对Service.Interface的实现
+Hosting：服务宿主的控制台应用。
+Client：一个控制台应用模拟服务的客户端
